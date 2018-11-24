@@ -1,0 +1,10 @@
+ vim main.tf
+ vim ../ibm_class/storage/main.tf
+ vim main.tf
+ terraform state --help
+ terraform state pull
+ terraform state list
+ vim main.tf
+ terraform import aws_s3_bucket.tf_code zeke-terraform-bucket
+ terraform init
+ terraform list
